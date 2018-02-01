@@ -9,6 +9,12 @@ Gathers summary details from multiple McAfee BUP files. In other words, "unbup a
 
         python bupsummary.py -o output.csv
 
+## Sample Output
+
+    Date,Timestamp,Timezone,Hostname,Bupname,Detection Name,Original Name,MD5,Bup Corrupt?
+    2017-11-14,20:51:43,Central Standard Time,DC-ATL-1234,C:\Data\McAfeeQuar\DC-ATL-1234\41f6e7ebce.bup,Artemis!09D7A37B73CD (ED),C:\WINDOWS\SYSTEM32\LOK.EXE,09d7a37b73cd0c804bac7341f6e7ebce,False
+    2017-11-13,01:22:14,Central Standard Time,DC-ATL-1234,C:\Data\McAfeeQuar\DC-ATL-1235\c20394bec6.bup,Trojan-FNTX!4E39362668C2 (ED),C:\DATA\CJ.EXE,d079b02b6a21bc70f10e60c20394bec6,False
+
 ## Homage
 
 This code is largely based on [Bupectomy](https://github.com/PoorBillionaire/bupectomy) by Adam Witt. He had already begun rewriting it to accomplish this when I started working on it (not on GitHub).
