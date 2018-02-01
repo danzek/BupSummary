@@ -7,6 +7,7 @@ Gathers summary details from multiple McAfee BUP files. In other words, "unbup a
 2. Navigate to the folder *one level above* the folder(s) named after each hostname containing the BUP files.
 3. Run BupSummary and specify the output file/path. Example:
 
+
     python bupsummary.py -o output.csv
 
 ## Homage
