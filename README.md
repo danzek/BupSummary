@@ -3,11 +3,24 @@ Gathers summary details from multiple McAfee BUP files. In other words, "unbup a
 
 # Usage
 
-1. Place all BUP files in directories where each BUP file's *direct* parent folder is the hostname from whence the BUP file was extracted.
+1. Place all BUP files in directories where each BUP file's *direct* parent folder is the hostname of the machine from whence the BUP file was extracted.
 2. Navigate to the folder *one level above* the folder(s) named after each hostname containing the BUP files.
 3. Run BupSummary and specify the output file/path. Example:
 
-        python bupsummary.py -o output.csv
+       python bupsummary.py -o output.csv
+
+Example directory structure:
+
+    Quarantine <-- run bupsummary.py from this directory
+      |
+      +--- Machine1
+             |
+             +--- 41f6e7ebce.bup
+             +--- 56fcf12345.bup
+      +--- Machine2
+             |
+             +--- f5c4abcd12.bup
+             +--- deadbeef01.bup
 
 ## Sample Output
 
@@ -29,7 +42,7 @@ This code is largely based on [Bupectomy](https://github.com/PoorBillionaire/bup
 
 ## License
 
-Copyright &copy;2018 Dan O'Day & Adam Witt
+Copyright &copy; 2018 Dan O'Day & Adam Witt
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
