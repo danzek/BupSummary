@@ -14,9 +14,10 @@ Example directory structure:
     Quarantine <-- run bupsummary.py from this directory
       |
       +--- Machine1
-             |
-             +--- 41f6e7ebce.bup
-             +--- 56fcf12345.bup
+      |      |
+      |      +--- 41f6e7ebce.bup
+      |      +--- 56fcf12345.bup
+      |
       +--- Machine2
              |
              +--- f5c4abcd12.bup
