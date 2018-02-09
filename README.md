@@ -31,7 +31,7 @@ Example directory structure:
 
 ## Homage
 
-This code is largely based on [Bupectomy](https://github.com/PoorBillionaire/bupectomy) by Adam Witt. He had already begun rewriting it to accomplish this when I started working on it (not on GitHub).
+This code is largely based on [Bupectomy](https://github.com/PoorBillionaire/bupectomy) by [Adam Witt](https://github.com/PoorBillionaire). He had already begun rewriting it to accomplish this when I started working on it (not on GitHub).
 
 ## Resources / Acknowledgements
 
